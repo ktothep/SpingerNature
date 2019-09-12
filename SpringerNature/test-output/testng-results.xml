@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8701" started-at="2019-09-12T09:24:27Z" finished-at="2019-09-12T09:24:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8701" started-at="2019-09-12T09:24:27Z" finished-at="2019-09-12T09:24:35Z">
+      <class name="SearchFunctionality.TC_01">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:SearchFunctionality.TC_01@1753acfe]" name="initialise" is-config="true" duration-ms="6965" started-at="2019-09-12T14:54:27Z" finished-at="2019-09-12T14:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="searchbook()[pri:0, instance:SearchFunctionality.TC_01@1753acfe]" name="searchbook" duration-ms="1572" started-at="2019-09-12T14:54:34Z" finished-at="2019-09-12T14:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchbook -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:SearchFunctionality.TC_01@1753acfe]" name="quit" is-config="true" duration-ms="149" started-at="2019-09-12T14:54:35Z" finished-at="2019-09-12T14:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SearchFunctionality.TC_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
