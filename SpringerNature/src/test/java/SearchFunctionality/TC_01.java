@@ -8,7 +8,7 @@ import org.testng.annotations.*;
 import POM.HomePage;
 import POM.SearchPage;
 import TestBase.Base;
-
+@Listeners(Utilities.Listener.class)
 
 public class TC_01 {
 
@@ -26,7 +26,8 @@ public void searchbook()
     Sp=new SearchPage();
 	hp.Search(Base.Searchvalue);
 
-	Assert.assertEquals(Sp.validate(), Base.Searchvalue);
+	//Assert.assertEquals(Sp.validate(), Base.Searchvalue);
+	Assert.assertEquals(Sp.validate(),"Test");
 	
 }
 
