@@ -19,7 +19,7 @@ public void initialise() throws IOException
 {  
 	Base.initialise();
 }
-
+/*This test checks wether the search term we searched for is actually searched on the page or not*/
 @Test
 public void searchbook()
 {   hp=new HomePage();

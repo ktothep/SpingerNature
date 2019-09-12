@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.codoid.products.exception.FilloException;
 
-
+/*Base class which consist of the initialisation and quitting of the webdriver*/
 
 public class Base {
 
